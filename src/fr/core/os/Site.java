@@ -18,7 +18,7 @@ public class Site extends Application {
         fenetre.getIcons().add(new Image(CoreOS.class.getResourceAsStream("/resources/favicon.png")));
         WebView webView = new WebView();
         fenetre.setResizable(false);
-        webView.getEngine().load("https://www.novariel.com/");
+        webView.getEngine().load("https://www.google.fr/");
 
         fenetre.setTitle("Novariel");
         VBox vBox = new VBox(webView);
