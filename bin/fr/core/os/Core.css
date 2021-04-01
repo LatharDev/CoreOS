@@ -1,0 +1,26 @@
+.menu-bar {
+    -fx-text-fill: #202020;
+    -fx-background-color: #fffbfbbd;
+}
+
+.menu:hover {
+    -fx-background-color: #317ff9e6;
+    -fx-focus-color: white;
+}
+
+.menu:focused {
+    -fx-background-color: #317ff9e6;
+    -fx-focus-color: white;
+}
+
+.menu:disabled, .menu:disabled > * {
+  -fx-opacity: 1.0;
+  -fx-font-weight: bold;
+}
+
+.menu-item:hover {
+    -fx-background-color: #317ff9e6;
+    -fx-focus-color: white;
+}
+
+
